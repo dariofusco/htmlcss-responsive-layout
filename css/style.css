@@ -235,3 +235,12 @@ h3 {
 .section-get-started p {
     line-height: 2rem;
 }
+
+@media screen and (min-widht: 375px) {
+}
+
+@media screen and (min-widht: 810px) {
+    .section-container {
+        display: none;
+    }
+}
