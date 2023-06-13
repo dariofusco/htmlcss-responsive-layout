@@ -131,3 +131,31 @@ h3 {
 .section-testimonial .section-container {
     text-align: center;
 }
+
+.section-benefits {
+    background-color: #9396e3;
+}
+
+.section-benefits h2 {
+    color: white;
+    text-align: center;
+}
+
+.section-benefits h1 {
+    color: #9396e3;
+    font-size: 4rem;
+}
+
+.section-benefits h3 {
+    color: #9396e3;
+}
+
+.section-benefits .card-button {
+    background-color: #9396e3;
+}
+
+.section-benefits .card {
+    background-color: white;
+    text-align: left;
+    padding: 2rem;
+}
