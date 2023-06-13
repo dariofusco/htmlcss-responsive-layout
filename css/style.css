@@ -90,7 +90,8 @@ h3 {
     object-fit: contain;
 }
 
-.img-testimonial {
+.img-testimonial,
+.img-about {
     width: 200px;
     height: 200px; 
     object-fit: cover;
@@ -159,3 +160,44 @@ h3 {
     text-align: left;
     padding: 2rem;
 }
+
+.section-about h1,
+.section-about h2,
+.section-about i {
+    color: #9396e3;
+}
+
+.section-about h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.section-about p,
+.section-about h2 {
+    line-height: 2.5rem;
+}
+
+.button {
+    background-color: #9396e3;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    padding: .8rem 3rem;
+    margin: 2rem 0;
+}
+
+.button i {
+    color: white;
+    padding-right: .5rem;
+}
+
+.img-about {
+    position: relative;
+}
+
+.img-quote i {
+    position: absolute;
+    font-size: 4rem;
+    left: 450px;
+}
+
