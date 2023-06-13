@@ -59,6 +59,13 @@ h3 {
     padding: 2rem 1rem;
 }
 
+.card-big {
+    background-color: #aadafd;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
 .card h3 {
     color: #007ff8;
 }
@@ -132,6 +139,10 @@ h3 {
     background-color: #9396e3;
     padding: 1rem 0;
     color: white;
+}
+
+.section-testimonial {
+    text-align: center;
 }
 
 .section-testimonial h2 {
@@ -208,7 +219,7 @@ h3 {
 .img-quote i {
     position: absolute;
     font-size: 4rem;
-    left: 450px;
+    left: 150px;
 }
 
 .section-get-started {
@@ -236,11 +247,40 @@ h3 {
     line-height: 2rem;
 }
 
-@media screen and (min-widht: 375px) {
+@media screen and (min-width: 375px) {
 }
 
-@media screen and (min-widht: 810px) {
+@media screen and (min-width: 810px) {
+    .nav-container {
+        width: 810px;
+        padding-right: 2rem;
+    }
     .section-container {
-        display: none;
+        width: 810px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card-big {
+        width: 500px;
+    }
+    .card {
+        width: 240px;
+    }
+    .section-lilac {
+        width: 760px;
+        display: flex;
+    }
+    .section-about {
+        display: flex;
+    }
+    .img-quote i {
+        left: 550px;
+    }
+    .section-get-started  .section-container{
+        display: inline-block;
+        padding: 0 4rem;
+    }
+    footer .section-container {
+        width: 400px;
     }
 }
