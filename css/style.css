@@ -201,3 +201,27 @@ h3 {
     left: 450px;
 }
 
+.section-get-started {
+    background-color: #9396e3;
+    text-align: center;
+    color: white;
+}
+
+.section-get-started .button {
+    display: inline-block;
+    background-color: white;
+    color: #9396e3;
+}
+
+.section-get-started h1 {
+    color: #ffb95e;
+    font-size: 3rem;
+}
+
+.section-get-started .section-container {
+    padding: 2rem;
+}
+
+.section-get-started p {
+    line-height: 2rem;
+}
