@@ -16,6 +16,16 @@ section {
     padding: 1rem 0;
 }
 
+footer {
+    background-color: #2e2e2e;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: #9396e3;
+}
+
 p {
     line-height: 1.5rem;
 }
