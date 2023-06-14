@@ -12,6 +12,20 @@ nav {
     background-color: #007ff8;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
 section {
     padding: 1rem 0;
 }
@@ -41,6 +55,17 @@ h3 {
 
 .bars a {
     color: white;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: white;
+    border-radius: 20px;
+    padding: .5rem;
 }
 
 .nav-container {
@@ -110,7 +135,7 @@ h3 {
 .img-testimonial,
 .img-about {
     width: 200px;
-    height: 200px; 
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
     padding: 1rem;
@@ -248,6 +273,15 @@ h3 {
 }
 
 @media screen and (min-width: 375px) {
+    .nav-link {
+        display: none;
+    }
+    .card-big .section-container {
+        width: 100%;
+    }
+    .column .section-container {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 810px) {
@@ -255,32 +289,91 @@ h3 {
         width: 810px;
         padding-right: 2rem;
     }
+
     .section-container {
         width: 810px;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    .section-lilac .section-container {
+        width: 50%;
+    }
+
+    .img-planning1 {
+        width: 360px;
+        object-fit: contain;
+    }
+
+    .card-big .section-container {
+        width: 100%;
+        justify-content: center;
+    }
+
     .card-big {
         width: 500px;
     }
+
     .card {
         width: 240px;
     }
+
     .section-lilac {
-        width: 760px;
+        width: 800px;
         display: flex;
     }
+
     .section-about {
         display: flex;
     }
+
     .img-quote i {
         left: 550px;
     }
-    .section-get-started  .section-container{
+
+    .section-get-started .section-container {
         display: inline-block;
         padding: 0 4rem;
     }
+
     footer .section-container {
         width: 400px;
+    }
+}
+
+@media screen and (width: 1920px) {
+    .nav-link {
+        display: flex;
+    }
+
+    .nav-container {
+        width: 920px;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .card-big {
+        display: flex;
+        height: 420px;
+    }
+
+    .section-lilac {
+        width: 920px;
+        margin: 0 auto;
+    }
+
+    .section-lilac .section-container {
+        width: 50%;
+    }
+
+    .img-planning1 {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .img-quote i {
+        left: 1180px;
     }
 }
