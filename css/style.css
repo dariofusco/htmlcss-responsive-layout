@@ -164,6 +164,7 @@ h3 {
     background-color: #9396e3;
     padding: 1rem 0;
     color: white;
+    margin: 0 auto;
 }
 
 .section-testimonial {
@@ -237,7 +238,7 @@ h3 {
     padding-right: .5rem;
 }
 
-.img-about {
+.img-quote {
     position: relative;
 }
 
@@ -276,9 +277,11 @@ h3 {
     .nav-link {
         display: none;
     }
+
     .card-big .section-container {
         width: 100%;
     }
+
     .column .section-container {
         width: 100%;
     }
@@ -327,10 +330,6 @@ h3 {
         display: flex;
     }
 
-    .img-quote i {
-        left: 550px;
-    }
-
     .section-get-started .section-container {
         display: inline-block;
         padding: 0 4rem;
@@ -373,7 +372,4 @@ h3 {
         object-fit: contain;
     }
 
-    .img-quote i {
-        left: 1180px;
-    }
 }
