@@ -53,6 +53,14 @@ h3 {
     line-height: 4rem;
 }
 
+.card-big h3 {
+    color: #007ff8;
+}
+
+.card-big p {
+    color: #506575;
+}
+
 .bars a {
     color: white;
 }
