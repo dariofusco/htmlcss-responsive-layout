@@ -292,6 +292,10 @@ h3 {
         display: none;
     }
 
+    .section-about {
+        width: 100%;
+    }
+
     .card-big .section-container {
         width: 100%;
     }
